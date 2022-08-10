@@ -6,6 +6,7 @@ async function loginFormHandler(event) {
     const password = document.querySelector('#password-login').value.trim();
 
     if (renterName && email && password) {
+
         const response = await fetch('/api/renter/login', {
             method: 'post',
             body: JSON.stringify({
