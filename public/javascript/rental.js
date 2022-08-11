@@ -1,6 +1,6 @@
-async function RentalCarHandler(event) {
-    event.preventDefault();
+// async function RentalCarHandler(event) {
+//     event.preventDefault();
 
-};
+// };
 
-document.querySelector('#rental').addEventListener('click', rental);
+// document.querySelector('#rental').addEventListener('click', rental);
